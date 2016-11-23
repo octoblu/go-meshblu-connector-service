@@ -14,6 +14,29 @@
 			"revision": "6d3a0ee7d3425d9d835debc51a0ca1ffa28f4893",
 			"branch": "master",
 			"notests": true
+		},
+		{
+			"importpath": "github.com/visionmedia/go-debug",
+			"repository": "https://github.com/visionmedia/go-debug",
+			"revision": "v2.0.0",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "golang.org/x/sys/windows/registry",
+			"repository": "https://go.googlesource.com/sys",
+			"revision": "30237cf4eefd639b184d1f2cb77a581ea0be8947",
+			"branch": "master",
+			"path": "/windows/registry",
+			"notests": true
+		},
+		{
+			"importpath": "golang.org/x/sys/windows/svc",
+			"repository": "https://go.googlesource.com/sys",
+			"revision": "30237cf4eefd639b184d1f2cb77a581ea0be8947",
+			"branch": "master",
+			"path": "/windows/svc",
+			"notests": true
 		}
 	]
 }

@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 
 	"github.com/kardianos/service"
-	De "github.com/tj/go-debug"
+	De "github.com/visionmedia/go-debug"
 )
 
 var debug = De.Debug("meshblu-connector-service:manage")
