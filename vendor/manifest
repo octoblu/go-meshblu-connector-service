@@ -23,19 +23,11 @@
 			"notests": true
 		},
 		{
-			"importpath": "golang.org/x/sys/windows/registry",
+			"importpath": "golang.org/x/sys/windows",
 			"repository": "https://go.googlesource.com/sys",
 			"revision": "30237cf4eefd639b184d1f2cb77a581ea0be8947",
 			"branch": "master",
-			"path": "/windows/registry",
-			"notests": true
-		},
-		{
-			"importpath": "golang.org/x/sys/windows/svc",
-			"repository": "https://go.googlesource.com/sys",
-			"revision": "30237cf4eefd639b184d1f2cb77a581ea0be8947",
-			"branch": "master",
-			"path": "/windows/svc",
+			"path": "/windows",
 			"notests": true
 		}
 	]
