@@ -102,5 +102,9 @@ func userServiceDirectory(homeDir string) string {
 }
 
 func connectorUserLoginDirectory(localAppData, uuid string) string {
-	return filepath.Join(localAppData, "MeshbluConnectors", uuid)
+	return filepath.Join(userLoginDirectory(localAppData), uuid)
+}
+
+func userLoginDirectory(localAppData string) string {
+	return filepath.Join(localAppData, "MeshbluConnectors")
 }
